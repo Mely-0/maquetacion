@@ -1,0 +1,159 @@
+body{
+    width: 100%;
+    height:100%;
+    margin: 0%;
+    padding: 0%;
+}
+/* este es el inicio del contenedor */
+.contenedor-pro{
+    height:100%;
+    width: 100%; 
+    display: grid;
+    grid-auto-rows: 100px 149px 500px 146px;
+    grid-template-areas:
+    "hijo1"
+    "hijo2"
+    "hijo3"
+    "hijo4" ;
+}
+/* aqui termina el contenedor*/
+
+/* aqui comienzan los hijitos*/
+.hijo1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    grid-area: hijo1;
+}
+.logo{
+    display: flex;
+    padding-top: 5px;
+    background-position: center;
+    background-size: cover;
+    width: 50%;
+    height: 90%;
+}
+#image{
+
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: 100% 100%;
+}
+.hijo2{
+    
+    display: flex;
+    width: 100%;
+    height: 100%;
+    grid-area: hijo2;
+
+}
+#img1{
+    width: 179%;
+    height: 100%;
+}
+.hijo3{
+    margin-top: 0%;
+    background-color: rgb(255, 250, 255);
+    grid-area: hijo3;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.articulos{
+    margin-top:5%;
+    /* padding-top:10px ; */
+    /* margin-left: 5%; */
+    display:flex;
+    justify-content: center;
+    width:80%;
+    height: 30%;
+    justify-content: space-between;
+}
+#articulo{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    background-color:white;
+    border: 2px 2px 2px 2px solid rgb(124, 145, 124);
+    box-shadow: 0 0 10px #42bb6a;
+    width: 50%;
+    height: 100%;
+    float: left;
+    border-radius: 10px 10px 10px 10px;
+    flex-direction: column;
+}
+#img2{
+    margin-top: 2px;
+    width: 30%;
+    height: 15%;
+}
+#btn1{
+margin-top: 35px;
+}
+
+.tituloimagen{
+margin-top: 15px;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 50%;
+height: 5%;
+
+/* margin-left: 10%; */
+}
+#titulo{
+    display: flex;
+    text-align: center;
+}
+#tituloim{
+    color: rgb(31, 54, 31);
+    text-shadow: 3px 3px 4px #51dd35;
+}
+.tresima{
+    width:80%;
+    height: 25%;
+    background-color: #42bb6a;
+    margin-top: 2%;
+    /* margin-left: 10%; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+#articulo1{
+display: flex;
+justify-content: center;
+align-items: center;
+border: 2px 2px  solid rgb(10, 37, 10);
+box-shadow: 0 0 10px #42bb6a;
+background-color: rgb(255, 255, 255);
+width: 50%;
+height: 100%;
+flex-direction: column;
+
+}
+
+#img3{
+margin-top: 2px;
+width: 60%;
+height: 30%;
+background-color: blue;
+}
+.lista{
+width: 10px;
+height:40px ;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+align-items: center;
+margin-right: 30px;
+}
+.listica{
+list-style: none;
+}
+.hijo4{
+    background-color: green;
+    grid-area: hijo4;
+}
